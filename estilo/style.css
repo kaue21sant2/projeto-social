@@ -4,12 +4,13 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 html,body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    overflow: hidden;
 }
 
 body{
@@ -44,4 +45,22 @@ iframe#tela {
     left: 22px;
     height: 471px;
     width: 269px;
+}
+
+section#Redes-sociais {
+    text-align: right;
+}
+
+section#Redes-sociais img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+   margin: 5px;
+   box-sizing: border-box;
+}
+
+section#Redes-sociais img:hover {
+ border: 2px  solid rgba(255, 255, 255, 0.747);
+ transform: translate(-3px, -3px);
+ transition: transform .4s;
 }
